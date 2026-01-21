@@ -18,7 +18,7 @@ public class FileHandling{
 
             //2.Write file
             FileWriter writer=new FileWriter(file);
-            writer.write("This is task 1-File Handling utility");
+            writer.write("This is task 1-File Handling utility\n");
             writer.close();
             System.out.println("Data written to file.");
 
@@ -46,3 +46,4 @@ public class FileHandling{
         }
     }
 }
+
