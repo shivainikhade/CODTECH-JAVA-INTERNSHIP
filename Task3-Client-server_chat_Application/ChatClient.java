@@ -5,7 +5,8 @@ public class ChatClient {
 
     public static void main(String[] args) {
 
-        try {
+        try 
+        {
             Socket socket = new Socket("localhost", 1234);
 
             BufferedReader input = new BufferedReader(
